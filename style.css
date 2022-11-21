@@ -13,9 +13,17 @@ header {
 main {
   background-color: red;
   padding: 10px;
+  flex-grow: 1;
 }
 
 footer {
   background-color: yellow;
   padding: 10px;
+}
+
+body {
+	/*min-height: 100vh;*/
+	background-color: blueviolet;
+	display: flex;
+	flex-direction: column;
 }
